@@ -1,7 +1,6 @@
 #include "BMX055.h"
 #include <Arduino.h>
 #include <Wire.h>
-#include <MadgwickAHRS.h>
 #include <math.h>
   
 float xAccl = 0.00;

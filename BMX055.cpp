@@ -22,7 +22,7 @@ void BMX055_Init()
   Wire.write(0x0F); // Select PMU_Range register
   Wire.write(0x03);   // Range = +/- 2g
   Wire.endTransmission();
-  (100);
+  delay(100);
  
   Wire.beginTransmission(Addr_Accl);
   Wire.write(0x10);  // Select PMU_BW register

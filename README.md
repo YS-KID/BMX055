@@ -3,7 +3,7 @@
 別途MadgwickAHRSライブラリを入れてください
 
 //Sample Code
-
+```
 #include "BMX055.h"
 #include <Wire.h>
 #include <MadgwickAHRS.h>
@@ -33,3 +33,4 @@ void loop() {
   delay(50);
 #endif
 }
+```
